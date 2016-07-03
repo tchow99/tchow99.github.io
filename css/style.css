@@ -1,0 +1,272 @@
+/*
+Wedding Landing Page
+font-family: 'Quicksand', sans-serif;
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+h1{
+  font-size: 60px;
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+footer{
+  font-size: 20px; 
+  text-align: center;
+  width: 100%;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.banner{
+  width: 100%;
+  height: 20%;
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 300; 
+}
+
+.date{
+  width: 100%;
+  height: 15%;
+  margin-top: 30px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+hr{
+  margin-top: 20px;
+  width: 90%;
+}
+
+.mainPhoto{
+  max-height: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 30px;
+}
+
+.bridgeMain{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  opacity: .9;
+}
+
+.welcomeMessage{
+  background: #EEEEEE;
+  width: 100%;
+  height: 30%;
+  margin-top: 30px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.welcomeMessage span{
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.welcomeMessage p{
+  margin: auto 0;
+  margin-top: 18px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 30px;
+  opacity: 0.8;
+  line-height: 150%
+}
+
+.welcomeMessage p.signature{
+  font-weight: 400;
+  text-align: right;
+}
+
+.welcomeMessage:hover{
+  opacity: 0.9;
+  transition: opacity .4s ease-out;
+}
+
+
+ul.img-list .clearfix {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+
+ul.img-list li{
+  display: inline-block;
+  margin: 5.5%;
+  position: relative;
+  max-width: 20.3%;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  font-weight: 400;
+  font-size: 25px;
+  cursor: pointer;
+  display: table;
+  left: 0;
+  position: absolute;
+  top: 0;
+  max-width: 20%;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+span.text-content {
+  background: rgba(0,0,0,0.35);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 478.63px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 350px;
+  opacity: 0;
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+
+footer{
+  width: 100%;
+  height: 80%;
+  padding-top: 8%;
+  padding-right: 1%;
+  padding-left: 5%;
+  padding-bottom: 1%;
+  margin-bottom: 0;
+  font-size: 1  10px;
+  background: #EEEEEE;
+  text-align: right;
+  font-size: 20px;
+
+}
+
+ul.mobileVersion{
+      visibility: hidden;
+      display: none;
+    }
+    
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+@media screen and (max-width: 1100px) {
+
+    ul.img-list{
+      display: none !important;
+    }
+
+    ul.mobileVersion{
+      visibility: visible;
+      display: inline-block;
+      max-width: 100%;
+    }
+
+    ul.mobileVersion li{
+      margin-top: 10%;
+      margin-bottom: 5%;
+      margin-left: 5%;
+      margin-right: 5%;
+      position: relative;
+      padding:0;
+    }
+
+    a{
+      text-decoration: none;
+      color: black;
+    }
+
+}
+
+
+/*
+@media screen and (max-width: 600px) {
+  #title_message {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}*/
+    
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
