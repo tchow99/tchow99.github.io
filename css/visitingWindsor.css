@@ -171,9 +171,11 @@ footer{
   top: 0;
   margin-top: 3.5%;
 }
+
 .mobile div {
   display: none;
 }
+
 .mobile button {
   position: absolute;
   top: 15px;
@@ -191,15 +193,18 @@ footer{
   -webkit-transition: all 400ms ease;
   transition: all 400ms ease;
 }
+
 .mobile button.expanded {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
   background-color: transparent;
   border: 0;
 }
+
 .mobile a {
   display: block;
 }
+
 .mobile a {
   background: #EEEEEE;
   text-align: center;
@@ -221,6 +226,7 @@ a:focus {
   font-weight: 500;
   color: black;
 }
+
 .desktop {
   display: block;
   overflow: hidden;
@@ -228,6 +234,7 @@ a:focus {
   margin-left: 3.5%;
   margin-top: 1.5%;
 }
+
 .desktop a {
   width: 25%;
   float: left;
@@ -252,5 +259,6 @@ a:focus {
   }
   .desktop {
     display: none;
+    visibility: hidden;
   }
 }
