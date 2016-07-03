@@ -130,7 +130,6 @@ a:hover{
   font-weight: 400;
 }
 
-
 .photoBox .clearfix{
   max-width: 20%
   margin-top: 10%;
@@ -183,7 +182,7 @@ footer{
   text-indent: 200%;
   overflow: hidden;
   background: rgba(255,255,255,0.8) url("http://i.imgur.com/vKRaKDX.png") center no-repeat;
-  border: 1px solid #ddd;
+  /*border: 1px solid #ddd;*/
   border-radius: 3px;
   background-size: 80%;
   width: 50px;
