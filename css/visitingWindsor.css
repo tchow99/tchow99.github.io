@@ -237,7 +237,7 @@ a:focus {
 .desktop a {
   width: 25%;
   float: left;
-  border-right: 1px solid #ddd;
+  /*border-right: 1px solid #ddd;*/
   box-sizing: border-box;
   text-decoration: none;
   text-align: center;
