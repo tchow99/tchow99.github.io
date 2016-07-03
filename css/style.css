@@ -163,12 +163,15 @@ span.text-content {
   position: absolute;
   top: 0;
   max-width: 20%;
+
 }
 
 span.text-content span {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
+  width: 330px;
+  height: 451px;
 }
 
 
