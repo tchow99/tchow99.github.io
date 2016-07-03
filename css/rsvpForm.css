@@ -196,6 +196,11 @@ footer{
   color: #222;
   font-weight: 300;
 }
+
+.mobile a:hover{
+  border-top: 1px solid #ddd;
+}
+
 a:hover,
 a:active,
 a:focus {

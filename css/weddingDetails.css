@@ -214,14 +214,22 @@ footer{
   color: #222;
   font-weight: 300;
 }
+
+.mobile a:hover{
+  border-top: 1px solid #ddd;
+}
+
+  
+
+
 a:hover,
 a:active,
 a:focus {
   background: white;
-  border-top: 1px solid #ddd;
   font-weight: 500;
   color: black;
 }
+
 .desktop {
   display: block;
   overflow: hidden;
