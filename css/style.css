@@ -258,17 +258,23 @@ ul.mobileVersion{
 a:hover,
 a:active,
 a:focus {
-  background: #e7e7e7;
+  background: white;
+  font-weight: 500;
+  color: black;
 }
 .desktop {
-  display: none;
+  display: block;
   overflow: hidden;
+  width: 90%;
+  margin-left: 3.5%;
 }
 .desktop a {
   width: 25%;
   float: left;
   border-right: 1px solid #ddd;
   box-sizing: border-box;
+  text-decoration: none;
+  text-align: center;
 }
 .desktop a:last-child {
   border-right: none;
