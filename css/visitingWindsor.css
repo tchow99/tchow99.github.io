@@ -166,7 +166,7 @@ footer{
 .mobile {
   display: none;
   position: relative;
-  /*width: 100%;*/
+  width: 100%;
   top: 0;
   margin-top: 3.5%;
 }
@@ -178,7 +178,7 @@ footer{
 .mobile button {
   position: absolute;
   top: 15px;
-  right: 15px;
+  right: 5.5%;
   border: 0;
   text-indent: 200%;
   overflow: hidden;
@@ -186,8 +186,8 @@ footer{
   border: 1px solid #ddd;
   border-radius: 3px;
   background-size: 80%;
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   outline: none;
   -webkit-transition: all 400ms ease;
   transition: all 400ms ease;
@@ -212,6 +212,7 @@ footer{
   text-decoration: none;
   color: #222;
   font-weight: 300;
+  font-size: 30px;
 }
 
 .mobile a:hover{

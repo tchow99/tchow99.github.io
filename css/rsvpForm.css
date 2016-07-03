@@ -182,7 +182,6 @@ footer{
 .mobile button.expanded {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
-
   background-color: transparent;
   border: 0;
 }
