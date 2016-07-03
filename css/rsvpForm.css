@@ -207,7 +207,6 @@ a:focus {
   background: white;
   font-weight: 500;
   color: black;
-  border-top: 1px solid #ddd;
 }
 .desktop {
   display: block;
