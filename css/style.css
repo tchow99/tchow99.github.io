@@ -126,7 +126,7 @@ hr{
   line-height: 150%
 }
 
-.welcomeMessage p.signature{
+.welcomeMessage .signature{
   font-weight: 400;
   text-align: right;
 }
@@ -197,10 +197,9 @@ footer{
   padding-left: 5%;
   padding-bottom: 1%;
   margin-bottom: 0;
-  font-size: 1  10px;
+  font-size: 15px;
   background: #EEEEEE;
   text-align: right;
-  font-size: 20px;
 
 }
 
@@ -310,7 +309,7 @@ a:focus {
     ul.mobileVersion li{
       margin-top: 10%;
       margin-bottom: 5%;
-      margin-left: 0%;
+      margin-left: 0;
       margin-right: 5%;
       position: relative;
       padding:0;
