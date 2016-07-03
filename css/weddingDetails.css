@@ -250,7 +250,7 @@ a:focus {
   border-right: none;
 }
 
-@media (max-width: 925px) {
+@media (max-width: 1025px) {
   .mobile {
     display: block;
   }
