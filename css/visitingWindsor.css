@@ -111,7 +111,6 @@ a:hover{
   margin-bottom: 20px;
   float: right;
   margin-top: 20px;
-
 }
 
 .weddingDetails{
@@ -164,7 +163,7 @@ footer{
 }
 
 hr{
-  border: 0.1px solid #ddd;
+  border: 0.5px solid #ddd;
 }
 
 p .smallSpace{
