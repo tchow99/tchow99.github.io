@@ -68,6 +68,11 @@ footer{
 /* LAYOUT
 /*******************************************/
 
+.chinese{
+  font-weight: 300;
+  opacity: 0.8;
+}
+
 .desktop{
   line-height: 150%;
   display: block;

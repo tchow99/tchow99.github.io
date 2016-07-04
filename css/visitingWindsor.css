@@ -99,11 +99,11 @@ a{
   color: inherit; 
   text-decoration: none;
 } 
-
+/*
 a:hover{
   color: gray;
 }
-
+*/
 .box .clearfix{
   width: 100%;
   margin-left: 0;
@@ -133,7 +133,10 @@ a:hover{
 
 .link{
   font-weight: 400;
+  color: rgb(235,89,57);
+  font-style: bold;
 }
+
 
 .photoBox .clearfix{
   max-width: 20%
@@ -164,10 +167,18 @@ hr{
   border: 0.1px solid #ddd;
 }
 
+p .smallSpace{
+  line-height: 800%;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+.chinese{
+  font-weight: 300;
+  opacity: 0.8;
+}
 
 
 .mobile {
@@ -226,9 +237,9 @@ hr{
   border-top: 1px solid #ddd;
 }
 
-a:hover,
-a:active,
-a:focus {
+.mobile a:hover,
+.mobile a:active,
+.mobile a:focus {
   background: white;
   font-weight: 500;
   color: black;
@@ -254,6 +265,7 @@ a:focus {
 .desktop a:hover {
   transition: all .2s ease-in-out;
   transform: scale(1.1);
+  font-weight: 400; 
   }
 
 .desktop a:last-child {
