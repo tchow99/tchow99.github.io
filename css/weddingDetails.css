@@ -128,12 +128,12 @@ a:hover {
   margin-right: 8%;
   margin-top: 5%;
   margin-bottom: 5%;
-  font-size: 20px;
-  line-height: 150%;
+  font-size: 23px;
+  line-height: 180%;
 }
 
 .subtitles{
-  font-size: 30px;
+  font-size: 33px;
   font-weight: 400;
 }
 
@@ -282,4 +282,12 @@ a:focus {
     display: none;
     visibility: hidden;
   }
+
+
+  .weddingDetails{
+    font-size: 20px;
+    line-height: 150%;
+    float: left;
+  }
+
 }
