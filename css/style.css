@@ -265,12 +265,13 @@ ul.mobileVersion{
   font-weight: 300;
 }
 a:hover,
-a:active,
-a:focus {
+a:active{
   background: white;
   font-weight: 500;
   color: black;
 }
+
+
 .desktop {
   display: block;
   overflow: hidden;
