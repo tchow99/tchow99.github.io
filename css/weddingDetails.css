@@ -64,9 +64,15 @@ footer{
   font-size: 20px; 
   text-align: center;
 }
+
 /******************************************
 /* LAYOUT
 /*******************************************/
+
+.desktop{
+  line-height: 150%;
+  display: block;
+}
 
 .banner{
   width: 100%;
@@ -161,7 +167,9 @@ footer{
 }
 
 
-
+hr{
+  border: 0.1px solid #ddd;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
@@ -260,6 +268,10 @@ a:focus {
 @media (max-width: 1025px) {
   .mobile {
     display: block;
+  }
+
+  .bottomBorder{
+    display: none;
   }
   .desktop {
     display: none;
