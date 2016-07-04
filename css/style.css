@@ -105,7 +105,7 @@ hr{
   width: 100%;
   /*margin-left: 5%;*/
   /*margin-right: 5%;*/
-  opacity: .9;
+  opacity: 1.1;
   background-color: #EEEEEE;
 }
 
@@ -221,7 +221,10 @@ ul.mobileVersion{
       display: none;
     }
     
-
+.chinese{
+  font-weight: 300;
+  opacity: 0.8;
+}
 
 .mobile {
   display: none;
