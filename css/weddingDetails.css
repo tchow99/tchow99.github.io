@@ -110,6 +110,12 @@ a:hover {
   color: gray;
 } 
 
+.bridgeDip{
+  width: 70%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
 .box .clearfix{
   width: 100%;
   margin-left: 0;
@@ -139,6 +145,8 @@ a:hover {
 
 .link{
   font-weight: 400;
+  color: rgb(235,89,57);
+  font-style: bold;
 }
 
 .mapBox{
