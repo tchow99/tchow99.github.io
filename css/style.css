@@ -124,7 +124,7 @@ hr{
   font-size: 30px;
   opacity: 0.8;
   line-height: 150%;
-  text-align: justify;
+  text-align: left;
 }
 
 .welcomeMessage .signature{
