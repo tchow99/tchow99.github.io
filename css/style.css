@@ -60,6 +60,12 @@ footer{
   text-align: center;
   width: 100%;
 }
+
+br {
+    line-height: 25px;
+ }
+
+
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -283,6 +289,10 @@ a:focus {
   border-right: none;
 }
 
+br {
+    line-height: 25px;
+ }
+
 @media (max-width: 3025px) {
   .mobile {
     display: block;
@@ -329,7 +339,7 @@ a:focus {
       margin-top: 18px;
       margin-left: 10%;
       margin-right: 10%;
-      font-size: 14px;
+      font-size: 23px;
       opacity: 0.8;
       line-height: 150%;
       text-align: center;
