@@ -123,7 +123,8 @@ hr{
   margin-right: 10%;
   font-size: 30px;
   opacity: 0.8;
-  line-height: 150%
+  line-height: 150%;
+  text-align: justify;
 }
 
 .welcomeMessage .signature{
