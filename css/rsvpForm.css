@@ -274,7 +274,7 @@ a:focus {
    h1{
       font-size: 50px;
       font-weight: 400;
-      /*opacity: 0.8;*/
+      opacity: 0.8;
     }
 
     .subtitles{
