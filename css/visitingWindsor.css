@@ -314,4 +314,10 @@ p .smallSpace{
     width: 43.8%;
   }
 
+   h1{
+      font-size: 50px;
+      font-weight: 300;
+      opacity: 0.8;
+    }
+
 }

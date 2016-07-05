@@ -270,4 +270,10 @@ a:focus {
     line-height: 150%;
     float: left;
   }
+
+   h1{
+      font-size: 50px;
+      font-weight: 300;
+      opacity: 0.8;
+    }
 }
