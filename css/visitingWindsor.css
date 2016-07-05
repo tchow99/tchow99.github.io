@@ -320,4 +320,9 @@ p .smallSpace{
       /*opacity: 0.8;*/
     }
 
+    .subtitles{
+      font-size: 30px;
+      font-weight: 400;
+    }
+
 }
