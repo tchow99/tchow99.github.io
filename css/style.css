@@ -317,7 +317,7 @@ br {
 /*******************************************/
 
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
 
     ul.img-list{
       display: none !important;
@@ -365,7 +365,7 @@ br {
 
 
     h1{
-      font-size: 34px;
+      font-size: 38px;
       font-weight: 300;
       opacity: 0.8;
     }
@@ -385,7 +385,7 @@ br {
   and (-webkit-min-device-pixel-ratio: 2) {
 
   h1{
-      font-size: 50px;
+      font-size: 46px;
       font-weight: 300;
       opacity: 0.8;
     }  
