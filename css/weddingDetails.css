@@ -61,7 +61,7 @@ h1:hover{
 }
 
 footer{
-  font-size: 20px; 
+  font-size: 15px; 
   text-align: center;
 }
 
@@ -71,7 +71,7 @@ footer{
 
 .chinese{
   font-weight: 300;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .desktop{
@@ -123,29 +123,31 @@ a:hover {
   margin-bottom: 20px;
   float: right;
   margin-top: 20px;
-  display: inline-block;
+  /*display: inline-block;*/
 
 }
 
 .weddingDetails{
   width: 84%;
-  /*height: 60px;*/
+  height: 95%;
   margin-left: 8%;
   margin-right: 8%;
-  margin-top: 5%;
+  margin-top: 4.5%;
   margin-bottom: 5%;
   font-size: 23px;
   line-height: 180%;
+  float: left;
 }
 
 .subtitles{
   font-size: 33px;
   font-weight: 400;
+  color: black;
 }
 
 .link{
   font-weight: 400;
-  color: rgb(235,89,57);
+  color: rgb(235,89, 87);
   font-style: bold;
 }
 
