@@ -271,7 +271,7 @@ footer{
   margin-bottom: 0;
   font-size: 15px;
   /*background: #EEEEEE;*/
-  background: rgb(203, 195, 178);
+  background: rgb(235, 195, 178);
   text-align: right;
   opacity: 0.85;
 
@@ -377,8 +377,6 @@ br {
 
 
 @media screen and (max-width: 568px) {
-
-
 
     ul.img-list{
       display: none !important;
