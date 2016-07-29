@@ -185,8 +185,6 @@ p .smallSpace{
 /* ADDITIONAL STYLES
 /*******************************************/
 
-
-
 .mobile {
   display: none;
   position: relative;
@@ -207,7 +205,7 @@ p .smallSpace{
   text-indent: 200%;
   overflow: hidden;
   background: rgba(255,255,255,0.8) url("http://i.imgur.com/vKRaKDX.png") center no-repeat;
-  /*border: 1px solid #ddd;*/
+  border: 1px solid #ddd;
   border-radius: 3px;
   background-size: 80%;
   width: 50px;
@@ -239,6 +237,9 @@ p .smallSpace{
   font-size: 30px;
 }
 
+.mobile a:hover{
+  border-top: 1px solid #ddd;
+}
 .mobile a:hover{
   border-top: 1px solid #ddd;
 }
