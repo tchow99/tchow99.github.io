@@ -52,12 +52,13 @@ body{
 h1{
   font-size: 60px;
   font-weight: 300;
-  opacity: 0.8;
+  opacity: 0.84
 }
 
 h1:hover{
-  font-weight: 400;
+  font-weight: 300;
   color: black;
+  font-size: 60.5px;
 }
 
 footer{
