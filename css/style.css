@@ -145,7 +145,7 @@ hr{
 }
 
 .welcomeMessage:hover{
-  opacity: 1.0;
+  opacity: 0.8;
   transition: opacity .4s ease-out;
 }
 
